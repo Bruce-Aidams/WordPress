@@ -1,0 +1,56 @@
+2021-06-11T16:32:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-includes\rest-api\class-wp-rest-server.php on line 882
+
+2021-06-11T16:32:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-includes\wp-db.php on line 2056
+
+2021-06-11T16:32:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-includes\l10n.php on line 741
+
+2021-06-11T16:34:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\ocean-extra\includes\freemius\includes\entities\class-fs-subscription.php on line 9
+
+2021-06-11T16:34:42+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\elementor-pro\plugin.php on line 139
+
+2021-06-11T16:34:50+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2021-06-11T17:33:52+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\ocean-extra\includes\freemius\includes\entities\class-fs-plugin.php on line 9
+
+2021-06-11T17:43:36+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-includes\Requests\Transport\cURL.php on line 463
+
+2021-06-11T17:57:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-includes\Requests\Transport\cURL.php on line 463
+
+2021-06-11T18:46:06+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-includes\comment.php on line 3280
+
+2021-06-11T18:46:17+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-includes\wp-db.php on line 2056
+
+2021-06-11T18:46:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-includes\formatting.php on line 4890
+
+2021-06-11T18:46:17+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2021-06-11T18:46:17+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\elementor-pro\modules\woocommerce\widgets\product-rating.php on line 7
+
+2021-06-11T18:47:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-includes\wp-db.php on line 2056
+
+2021-06-11T18:48:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\themes\oceanwp\inc\customizer\settings\woocommerce.php on line 8
+
+2021-06-11T18:49:45+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-includes\block-patterns\text-two-columns.php on line 9
+
+2021-06-11T18:49:45+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Payments\Integrations\PayPal.php on line 89
+
+2021-06-11T18:49:58+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-exporters.php on line 11
+
+2021-06-11T18:50:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-admin\includes\class-custom-image-header.php on line 1516
+
+2021-06-11T18:51:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\ocean-extra\includes\freemius\start.php on line 9
+
+2021-06-11T18:51:42+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\MarketingOverview.php on line 13
+
+2021-06-11T18:51:46+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-includes\wp-db.php on line 2056
+
+2021-06-11T18:51:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php on line 60
+
+2021-06-11T18:52:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Reports\Revenue\Stats\Controller.php on line 10
+
+2021-06-11T18:56:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-includes\wp-db.php on line 2056
+
+2021-06-11T19:08:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-06-11T19:36:47+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-includes\Requests\Transport\cURL.php on line 463
+

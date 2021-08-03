@@ -1,0 +1,134 @@
+{
+    "template": {
+        "value": "recovery"
+    },
+    "valid-act": {
+        "value": "auto"
+    },
+    "recovery-link": {
+        "value": ""
+    },
+    "import-info": {
+        "value": {
+            "import_page": "http:\/\/localhost:8080\/DMS\/wp-admin\/admin.php?page=duplicator-pro-import",
+            "recovery_page": "http:\/\/localhost:8080\/DMS\/wp-admin\/admin.php?page=duplicator-pro-tools&tab=recovery",
+            "recovery_is_out_to_date": true,
+            "recovery_package_life": 294,
+            "color-scheme": {
+                "name": "Default",
+                "url": false,
+                "colors": [
+                    "#1d2327",
+                    "#2c3338",
+                    "#2271b1",
+                    "#72aee6"
+                ],
+                "icon_colors": {
+                    "base": "#a7aaad",
+                    "focus": "#72aee6",
+                    "current": "#fff"
+                }
+            },
+            "color-primary-button": "#2271b1"
+        }
+    },
+    "db-display-overwarn": {
+        "value": false
+    },
+    "cpnl-can-sel": {
+        "value": false
+    },
+    "url_new": {
+        "value": "http:\/\/localhost:8080\/DMS",
+        "formStatus": "st_infoonly"
+    },
+    "path_new": {
+        "value": "C:\/xampp\/htdocs\/DMS\/",
+        "formStatus": "st_infoonly"
+    },
+    "archive_action": {
+        "value": "removewpfiles",
+        "formStatus": "st_infoonly"
+    },
+    "archive_engine": [],
+    "dbaction": {
+        "value": "empty"
+    },
+    "dbhost": {
+        "value": "localhost",
+        "formStatus": "st_infoonly"
+    },
+    "dbname": {
+        "value": "DMS",
+        "formStatus": "st_infoonly"
+    },
+    "dbuser": {
+        "value": "admin",
+        "formStatus": "st_infoonly"
+    },
+    "dbpass": {
+        "value": "bruceaidams931.",
+        "formStatus": "st_infoonly"
+    },
+    "dbcharset": {
+        "value": "utf8mb4"
+    },
+    "dbcollate": {
+        "value": ""
+    },
+    "ovr_site_data": {
+        "value": {
+            "dbhost": "localhost",
+            "dbname": "DMS",
+            "dbuser": "admin",
+            "dbpass": "bruceaidams931.",
+            "table_prefix": "wp_",
+            "isMultisite": false,
+            "adminUsers": []
+        }
+    },
+    "restore-backup": {
+        "value": true,
+        "formStatus": "st_infoonly"
+    },
+    "siteurl": {
+        "value": "http:\/\/localhost:8080\/DMS",
+        "formStatus": "st_infoonly"
+    },
+    "path_core_new": {
+        "value": "C:\\xampp\\htdocs\\DMS\/",
+        "formStatus": "st_infoonly"
+    },
+    "url_cont_new": {
+        "value": "http:\/\/localhost:8080\/DMS\/wp-content",
+        "formStatus": "st_infoonly"
+    },
+    "path_cont_new": {
+        "value": "C:\\xampp\\htdocs\\DMS\/wp-content",
+        "formStatus": "st_infoonly"
+    },
+    "url_upl_new": {
+        "value": "http:\/\/localhost:8080\/DMS\/wp-content\/uploads",
+        "formStatus": "st_infoonly"
+    },
+    "path_upl_new": {
+        "value": "C:\\xampp\\htdocs\\DMS\/wp-content\/uploads",
+        "formStatus": "st_infoonly"
+    },
+    "url_plug_new": {
+        "value": "http:\/\/localhost:8080\/DMS\/wp-content\/plugins",
+        "formStatus": "st_infoonly"
+    },
+    "path_plug_new": {
+        "value": "C:\\xampp\\htdocs\\DMS\/wp-content\/plugins",
+        "formStatus": "st_infoonly"
+    },
+    "url_muplug_new": {
+        "value": "http:\/\/localhost:8080\/DMS\/wp-content\/mu-plugins",
+        "formStatus": "st_infoonly"
+    },
+    "path_muplug_new": {
+        "value": "C:\\xampp\\htdocs\\DMS\/wp-content\/mu-plugins",
+        "formStatus": "st_infoonly"
+    }
+}

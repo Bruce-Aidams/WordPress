@@ -1,0 +1,6 @@
+2021-06-14T17:44:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-includes\Requests\Transport\cURL.php on line 463
+
+2021-06-14T17:59:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-includes\Requests\Transport\cURL.php on line 463
+
+2021-06-14T18:09:33+00:00 CRITICAL Out of memory (allocated 92274688) (tried to allocate 32768 bytes) in C:\xampp\htdocs\DMS\wp-admin\includes\ajax-actions.php on line 3739
+

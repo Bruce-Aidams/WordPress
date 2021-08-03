@@ -1,0 +1,4 @@
+2021-06-15T22:31:32+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\elementor-pro\plugin.php on line 139
+
+2021-06-15T22:31:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-admin\includes\admin.php on line 10
+

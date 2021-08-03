@@ -1,0 +1,12 @@
+2021-06-18T01:59:18+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2021-06-18T01:59:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2021-06-18T01:59:27+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\elementor-pro\plugin.php on line 139
+
+2021-06-18T02:09:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\elementor-pro\modules\woocommerce\conditions\woocommerce.php on line 7
+
+2021-06-18T02:09:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-content\plugins\buddyboss-platform\bp-core\admin\settings\bp-admin-setting-activity.php on line 187
+
+2021-06-18T21:53:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\DMS\wp-includes\Requests\Transport\cURL.php on line 441
+

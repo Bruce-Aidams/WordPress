@@ -1,0 +1,705 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 12:22:32
+* VERSION: 4.0.2
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: WINNT                                 |WINNT
+PHP VERSION_________: 7.4.15                                |7.4.15
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.15 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.4.15
+DOC ROOT____________: "C:/xampp/htdocs/DMS/wp-content/backups-dup-pro/imports"
+LOG FILE 644________: false
+REQUEST URL_________: "http://localhost/DMS/wp-content/backups-dup-pro/imports/dup-installer-ded306a-22144951/main.installer.php"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[cpnl-dbaction]
+ *** FROM LOCAL FILE
+PARAM SET KEY[template]
+PARAM SET KEY[valid-act]
+PARAM SET KEY[recovery-link]
+PARAM SET KEY[import-info]
+PARAM SET KEY[db-display-overwarn]
+PARAM SET KEY[cpnl-can-sel]
+PARAM SET KEY[url_new]
+PARAM SET KEY[path_new]
+PARAM SET KEY[archive_action]
+PARAM SET KEY[archive_engine]
+PARAM SET KEY[dbaction]
+PARAM SET KEY[dbhost]
+PARAM SET KEY[dbname]
+PARAM SET KEY[dbuser]
+PARAM SET KEY[dbpass]
+PARAM SET KEY[dbcharset]
+PARAM SET KEY[dbcollate]
+PARAM SET KEY[ovr_site_data]
+********************************************************************************
+If start step 0 C:/xampp/htdocs/DMS
+INSTALLER INFO
+TEMPLATE____________: "import-base"
+VALIDATE ON START___: "auto"
+PATH_NEW____________: "C:/xampp/htdocs/DMS"
+URL_NEW_____________: "http://localhost:8080/DMS"
+********************************************************************************
+
+--------------------------------------
+ARCHIVE INFO
+--------------------------------------
+ARCHIVE NAME________: "C:/xampp/htdocs/DMS/wp-content/backups-dup-pro/imports/20210622_dmsProgress4_[HASH]_20210622144951_archive.zip"
+ARCHIVE SIZE________: 70.5MB
+CREATED_____________: 2021-06-22 14:49:51
+WP VERSION__________: 5.7.2
+DUP VERSION_________: 4.0.2
+DB VERSION__________: 10.4.17
+DB FILE SIZE________: 10.26MB
+DB TABLES___________: 71
+DB ROWS_____________: 3495
+URL HOME____________: http://localhost:8080/DMS
+URL CORE____________: http://localhost:8080/DMS
+URL CONTENT_________: http://localhost:8080/DMS/wp-content
+URL UPLOAD__________: http://localhost:8080/DMS/wp-content/uploads
+URL PLUGINS_________: http://localhost:8080/DMS/wp-content/plugins
+URL MU PLUGINS______: http://localhost:8080/DMS/wp-content/mu-plugins
+URL THEMES__________: http://localhost:8080/DMS/wp-content/themes
+PATH HOME___________: C:/xampp/htdocs/DMS
+PATH ABS____________: C:/xampp/htdocs/DMS
+PATH WPCONFIG_______: C:/xampp/htdocs/DMS
+PATH WPCONTENT______: C:/xampp/htdocs/DMS/wp-content
+PATH UPLOADS________: C:/xampp/htdocs/DMS/wp-content/uploads
+PATH PLUGINS________: C:/xampp/htdocs/DMS/wp-content/plugins
+PATH MUPLUGINS______: C:/xampp/htdocs/DMS/wp-content/mu-plugins
+PATH THEMES_________: C:/xampp/htdocs/DMS/wp-content/themes
+***  PLUGINS ***
+PLUGIN [SLUG:advanced-post-queries/advanced-post-queries.php   ][ON:true ]  Advanced Post Queries
+PLUGIN [SLUG:buddyboss-platform/bp-loader.php                  ][ON:true ]  BuddyBoss Platform
+PLUGIN [SLUG:buddyboss-platform-pro/buddyboss-platform-pro.php ][ON:true ]  BuddyBoss Platform Pro
+PLUGIN [SLUG:content-control/content-control.php               ][ON:true ]  Content Control
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ]  Duplicator Pro
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:elementor-pro/elementor-pro.php                   ][ON:true ]  Elementor Pro
+PLUGIN [SLUG:jonradio-multiple-themes/jonradio-multiple-themes.php][ON:true ]  Multiple Themes
+PLUGIN [SLUG:ocean-cookie-notice/ocean-cookie-notice.php       ][ON:true ]  Ocean Cookie Notice
+PLUGIN [SLUG:ocean-elementor-widgets/ocean-elementor-widgets.php][ON:true ]  Ocean Elementor Widgets
+PLUGIN [SLUG:ocean-extra/ocean-extra.php                       ][ON:true ]  Ocean Extra
+PLUGIN [SLUG:ocean-sticky-header/ocean-sticky-header.php       ][ON:true ]  Ocean Sticky Header
+PLUGIN [SLUG:ultimate-member/ultimate-member.php               ][ON:true ]  Ultimate Member
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:true ]  WooCommerce
+PLUGIN [SLUG:elementor-safe-mode.php                           ][ON:false]  Elementor Safe Mode
+--------------------------------------
+--------------------------------------
+
+LOG-TIME[C:\xampp\htdocs\DMS\wp-content\backups-dup-pro\imports\dup-installer-ded306a-22144951\ctrls\ctrl.base.php:236][DELTA:   0.26258]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00027]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery URL" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Recovery URL" RESULT: good
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual extraction detected" RESULT: skip
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00025]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+LOG-TIME[DELTA:   5.80791]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00168]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00024]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Sufficient Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00083]  MESSAGE:TEST "Sufficient Disk Space" RESULT: good
+
+START TEST "Permissions" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   4.13146]  MESSAGE:TEST "Permissions" RESULT: passed
+
+START TEST "Configs files permissions" [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00245]  MESSAGE:TEST "Configs files permissions" RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host name check" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Host name check" RESULT: passed
+
+START TEST "Verify Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00376]  MESSAGE:TEST "Verify Host Connection" RESULT: passed
+
+START TEST "Database version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00216]  MESSAGE:TEST "Database version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Confirm Database Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00041]  MESSAGE:TEST "Confirm Database Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Test User Table Privileges" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.08445]  MESSAGE:TEST "Test User Table Privileges" RESULT: passed
+
+START TEST "Test SHOW VARIABLES query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00077]  MESSAGE:TEST "Test SHOW VARIABLES query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Default Character set and Collation support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00209]  MESSAGE:TEST "Default Character set and Collation support" RESULT: passed
+
+START TEST "Check Character set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Check Character set and  Collation Capability" RESULT: passed
+
+START TEST "Check GTID mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00021]  MESSAGE:TEST "Check GTID mode" RESULT: passed
+
+START TEST "Table Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00091]  MESSAGE:TEST "Table Case Sensitivity" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 12:22:49
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+RESTORE BACKUP MODE_: true
+HOME URL NEW________: "http://localhost:8080/DMS"
+SITE URL NEW________: "http://localhost:8080/DMS"
+CONTENT URL NEW_____: "http://localhost:8080/DMS/wp-content"
+UPLOAD URL NEW______: "http://localhost:8080/DMS/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost:8080/DMS/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost:8080/DMS/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/xampp/htdocs/DMS"
+SITE PATH NEW_______: "C:/xampp/htdocs/DMS"
+CONTENT PATH NEW____: "C:/xampp/htdocs/DMS/wp-content"
+UPLOAD PATH NEW_____: "C:/xampp/htdocs/DMS/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/xampp/htdocs/DMS/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/xampp/htdocs/DMS/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "original"
+OTHER CONFIG________: "original"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+--------------------------------------
+PATHS MAPPING_______: "C:/xampp/htdocs/DMS"
+--------------------------------------
+EXTRACTION FILTERS
+FILTER FOLDER: "dup-installer"
+FILTER FILE  : "20210622_dmsProgress4_[HASH]_20210622144951_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING
+RESET CONFIG FILES: I'M GOING TO MOVE CONFIG FILE "wp-config.php" IN ORIGINAL FOLDER
+	CONFIG FILE HAS BEEN RESET
+RESET CONFIG FILES: I'M GOING TO MOVE CONFIG FILE ".htaccess" IN ORIGINAL FOLDER
+	CONFIG FILE HAS BEEN RESET
+*** RESET CONFIG FILES END
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0079 sec. - Files processed: 2,824 of 18,504
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2824
+CHUNK COMPLETE - RUNTIME: 5.0091 sec. - Files processed: 5,581 of 18,504
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5581
+CHUNK COMPLETE - RUNTIME: 5.0085 sec. - Files processed: 6,998 of 18,504
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6998
+CHUNK COMPLETE - RUNTIME: 5.0148 sec. - Files processed: 9,523 of 18,504
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9523
+CHUNK COMPLETE - RUNTIME: 5.0076 sec. - Files processed: 12,065 of 18,504
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12065
+CHUNK COMPLETE - RUNTIME: 5.0085 sec. - Files processed: 15,029 of 18,504
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15029
+CHUNK COMPLETE - RUNTIME: 5.0074 sec. - Files processed: 17,859 of 18,504
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 17859
+FILE EXTRACTION: done processing last file in list of 19007
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 12:23:29 - RUNTIME: 39.5562 sec. - Files processed: 18,504 of 18,504
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 12:23:29
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+KEEP USERS__________: 0
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+NON-BREAKING SPACES_: false
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_actionscheduler_actions"______________________[ROWS:      12] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_actions]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_claims]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_groups]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:      34] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_logs]
+TABLE "wp_bp_activity"__________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_bp_activity]
+TABLE "wp_bp_activity_meta"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bp_activity_meta]
+TABLE "wp_bp_document"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bp_document]
+TABLE "wp_bp_document_folder"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bp_document_folder]
+TABLE "wp_bp_document_folder_meta"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bp_document_folder_meta]
+TABLE "wp_bp_document_meta"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bp_document_meta]
+TABLE "wp_bp_follow"____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bp_follow]
+TABLE "wp_bp_invitations"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bp_invitations]
+TABLE "wp_bp_media"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bp_media]
+TABLE "wp_bp_media_albums"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bp_media_albums]
+TABLE "wp_bp_notifications"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bp_notifications]
+TABLE "wp_bp_notifications_meta"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bp_notifications_meta]
+TABLE "wp_bp_user_blogs"________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_bp_user_blogs]
+TABLE "wp_bp_user_blogs_blogmeta"_______________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: wp_bp_user_blogs_blogmeta]
+TABLE "wp_bp_xprofile_data"_____________________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wp_bp_xprofile_data]
+TABLE "wp_bp_xprofile_fields"___________________________[ROWS:      12] [EXTRACT|REPLACE] [INST NAME: wp_bp_xprofile_fields]
+TABLE "wp_bp_xprofile_groups"___________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_bp_xprofile_groups]
+TABLE "wp_bp_xprofile_meta"_____________________________[ROWS:      11] [EXTRACT|REPLACE] [INST NAME: wp_bp_xprofile_meta]
+TABLE "wp_bp_zoom_meeting_meta"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bp_zoom_meeting_meta]
+TABLE "wp_bp_zoom_meetings"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bp_zoom_meetings]
+TABLE "wp_bp_zoom_recordings"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bp_zoom_recordings]
+TABLE "wp_bp_zoom_webinar_meta"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bp_zoom_webinar_meta]
+TABLE "wp_bp_zoom_webinar_recordings"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bp_zoom_webinar_recordings]
+TABLE "wp_bp_zoom_webinars"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bp_zoom_webinars]
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_entities]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_packages]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_options"______________________________________[ROWS:     528] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:    2200] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:     380] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_signups"______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_signups]
+TABLE "wp_term_relationships"___________________________[ROWS:      27] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:      37] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_termmeta"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:      37] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_um_metadata"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_um_metadata]
+TABLE "wp_usermeta"_____________________________________[ROWS:     109] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_users]
+TABLE "wp_wc_admin_note_actions"________________________[ROWS:      37] [EXTRACT|REPLACE] [INST NAME: wp_wc_admin_note_actions]
+TABLE "wp_wc_admin_notes"_______________________________[ROWS:      37] [EXTRACT|REPLACE] [INST NAME: wp_wc_admin_notes]
+TABLE "wp_wc_category_lookup"___________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_wc_category_lookup]
+TABLE "wp_wc_customer_lookup"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_customer_lookup]
+TABLE "wp_wc_download_log"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_download_log]
+TABLE "wp_wc_order_coupon_lookup"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_coupon_lookup]
+TABLE "wp_wc_order_product_lookup"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_product_lookup]
+TABLE "wp_wc_order_stats"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_stats]
+TABLE "wp_wc_order_tax_lookup"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_tax_lookup]
+TABLE "wp_wc_product_meta_lookup"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_product_meta_lookup]
+TABLE "wp_wc_reserved_stock"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_reserved_stock]
+TABLE "wp_wc_tax_rate_classes"__________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_wc_tax_rate_classes]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_webhooks]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_api_keys]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_attribute_taxonomies]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_downloadable_product_permissions]
+TABLE "wp_woocommerce_log"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_log]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_order_itemmeta]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_order_items]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_payment_tokenmeta]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_payment_tokens]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_sessions]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zone_locations]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zone_methods]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zones]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_tax_rate_locations]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_tax_rates]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.17 -- Build Server: 10.4.17
+FILE SIZE:	dup-database__[HASH].sql (2.64MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+CLEANUP ROUTINE SKIP [BACKUP MODE ENABLE]
+CLEANUP CURRENT PACKAGE STATUS ID 7
+ERRORS FOUND:	0
+DROPPED TABLES:	63
+RENAMED TABLES:	0
+QUERIES RAN:	117
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_actionscheduler_actions"______________________[ROWS:    12]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:     2]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:    34]
+TABLE "wp_bp_activity"__________________________________[ROWS:     3]
+TABLE "wp_bp_activity_meta"_____________________________[ROWS:     0]
+TABLE "wp_bp_document"__________________________________[ROWS:     0]
+TABLE "wp_bp_document_folder"___________________________[ROWS:     0]
+TABLE "wp_bp_document_folder_meta"______________________[ROWS:     0]
+TABLE "wp_bp_document_meta"_____________________________[ROWS:     0]
+TABLE "wp_bp_follow"____________________________________[ROWS:     0]
+TABLE "wp_bp_invitations"_______________________________[ROWS:     0]
+TABLE "wp_bp_media"_____________________________________[ROWS:     0]
+TABLE "wp_bp_media_albums"______________________________[ROWS:     0]
+TABLE "wp_bp_notifications"_____________________________[ROWS:     0]
+TABLE "wp_bp_notifications_meta"________________________[ROWS:     0]
+TABLE "wp_bp_user_blogs"________________________________[ROWS:     1]
+TABLE "wp_bp_user_blogs_blogmeta"_______________________[ROWS:     8]
+TABLE "wp_bp_xprofile_data"_____________________________[ROWS:     6]
+TABLE "wp_bp_xprofile_fields"___________________________[ROWS:    12]
+TABLE "wp_bp_xprofile_groups"___________________________[ROWS:     1]
+TABLE "wp_bp_xprofile_meta"_____________________________[ROWS:    11]
+TABLE "wp_bp_zoom_meeting_meta"_________________________[ROWS:     0]
+TABLE "wp_bp_zoom_meetings"_____________________________[ROWS:     0]
+TABLE "wp_bp_zoom_recordings"___________________________[ROWS:     0]
+TABLE "wp_bp_zoom_webinar_meta"_________________________[ROWS:     0]
+TABLE "wp_bp_zoom_webinar_recordings"___________________[ROWS:     0]
+TABLE "wp_bp_zoom_webinars"_____________________________[ROWS:     0]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     1]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     6]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     4]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   527]
+TABLE "wp_postmeta"_____________________________________[ROWS:  2200]
+TABLE "wp_posts"________________________________________[ROWS:   380]
+TABLE "wp_signups"______________________________________[ROWS:     0]
+TABLE "wp_term_relationships"___________________________[ROWS:    27]
+TABLE "wp_term_taxonomy"________________________________[ROWS:    37]
+TABLE "wp_termmeta"_____________________________________[ROWS:     0]
+TABLE "wp_terms"________________________________________[ROWS:    37]
+TABLE "wp_um_metadata"__________________________________[ROWS:     0]
+TABLE "wp_usermeta"_____________________________________[ROWS:   109]
+TABLE "wp_users"________________________________________[ROWS:     3]
+TABLE "wp_wc_admin_note_actions"________________________[ROWS:    37]
+TABLE "wp_wc_admin_notes"_______________________________[ROWS:    37]
+TABLE "wp_wc_category_lookup"___________________________[ROWS:     1]
+TABLE "wp_wc_customer_lookup"___________________________[ROWS:     0]
+TABLE "wp_wc_download_log"______________________________[ROWS:     0]
+TABLE "wp_wc_order_coupon_lookup"_______________________[ROWS:     0]
+TABLE "wp_wc_order_product_lookup"______________________[ROWS:     0]
+TABLE "wp_wc_order_stats"_______________________________[ROWS:     0]
+TABLE "wp_wc_order_tax_lookup"__________________________[ROWS:     0]
+TABLE "wp_wc_product_meta_lookup"_______________________[ROWS:     0]
+TABLE "wp_wc_reserved_stock"____________________________[ROWS:     0]
+TABLE "wp_wc_tax_rate_classes"__________________________[ROWS:     2]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:     0]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:     0]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0]
+TABLE "wp_woocommerce_log"______________________________[ROWS:     0]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:     0]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:     0]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:     4]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:     0]
+
+DATABASE CACHE/TRANSITIENT [ROWS:     0]
+
+INSERT DATA RUNTIME: 2.6135 sec.
+STEP-2 COMPLETE @ 12:23:32 - RUNTIME: 2.6140 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 12:23:32
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+blogname______________: "DMS"
+url_old_______________: "http://localhost:8080/DMS"
+url_new_______________: "http://localhost:8080/DMS"
+siteurl_______________: "http://localhost:8080/DMS"
+path_new______________: "C:/xampp/htdocs/DMS"
+path_old______________: "C:/xampp/htdocs/DMS"
+replace_mode__________: "legacy"
+empty_schedule_storage: false
+mode_chunking_________: 3
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+cross_search__________: true
+postguid______________: false
+fullsearch____________: false
+replaceMail___________: false
+maxSerializeStrlen____: 4000000
+auth_keys_and_salts___: false
+mu_replace____________: Array
+(
+)
+
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/xampp/htdocs/DMS/wp-config.php
+Retained original entry htaccess target:C:/xampp/htdocs/DMS/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""DMS""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG false
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 12:23:32 - RUNTIME: 0.1038 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\DMS\wp-content\backups-dup-pro\imports\dup-installer-ded306a-22144951\ctrls\ctrl.base.php:236][DELTA:   0.21337]  MESSAGE:END RENDER PAGE
